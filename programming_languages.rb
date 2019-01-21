@@ -8,5 +8,6 @@ new_hash = {}
   new_hash[name][:style] << style
   end
   end
+ new_hash[:javascript][:style] << :oo
  new_hash
 end

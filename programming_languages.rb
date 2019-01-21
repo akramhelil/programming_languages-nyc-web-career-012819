@@ -1,35 +1,34 @@
 def reformat_languages(languages)
   # your code here
   languages = {
-  :oo => {
+    {
     :ruby => {
-      :type => "interpreted"
+      :type => "interpreted",
+      :style => [:oo]
     },
     :javascript => {
-      :type => "interpreted"
+      :type => "interpreted",
+      :style => [:oo, :functional]
     },
     :python => {
-      :type => "interpreted"
+      :type => "interpreted",
+      :style => [:oo]
     },
     :java => {
-      :type => "compiled"
-    }
-  },
-  :functional => {
+      :type => "compiled",
+      :style => [:oo]
+    },
     :clojure => {
-      :type => "compiled"
+      :type => "compiled",
+      :style => [:functional]
     },
     :erlang => {
-      :type => "compiled"
+      :type => "compiled",
+      :style => [:functional]
     },
     :scala => {
-      :type => "compiled"
-    },
-    :javascript => {
-      :type => "interpreted"
+      :type => "compiled",
+      :style => [:functional]
     }
-
   }
-}
-
 end
